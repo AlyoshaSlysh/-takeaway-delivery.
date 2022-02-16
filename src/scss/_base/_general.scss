@@ -2,11 +2,39 @@
   box-sizing: border-box;
 }
 
-$primary: #000;
-$font: 'Roboto' san-serfi;
-$font-size: 18px;
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
 
-h1 {
-  font-size: $font-size;
-  color: red;
+.container {
+  max-width: 1230px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.text_min {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.df_r_c_c_sb {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
